@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T12:40:59.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="i6hf4kr0-Rg_kZTZiQKn" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:45:12.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zf-KmPMLyFEHi0V4l02F" version="20.2.8" type="github">
   <diagram id="gl1188mrddrtFknN2f1I" name="Page-1">
     <mxGraphModel dx="1426" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JJ399tZs6g35hUqtkFYU-14" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-          <mxGeometry x="194" y="490" width="36" height="40" as="geometry" />
+          <mxGeometry x="189" y="460" width="46" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JJ399tZs6g35hUqtkFYU-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJ399tZs6g35hUqtkFYU-14" target="JJ399tZs6g35hUqtkFYU-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -68,6 +68,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="360" as="sourcePoint" />
             <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ399tZs6g35hUqtkFYU-20" value="int e1/0/1&lt;br&gt;int vlan 1001&lt;br&gt;&lt;div&gt;&amp;nbsp;ipv4:10.10.255.42/30&lt;/div&gt;&lt;div&gt;ipv6: 链路本地地址&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ399tZs6g35hUqtkFYU-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.425;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JJ399tZs6g35hUqtkFYU-4" target="JJ399tZs6g35hUqtkFYU-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJ399tZs6g35hUqtkFYU-23" value="int e1/0/2&lt;br&gt;int vlan 110&lt;br&gt;ipv4:10.17.110.1/24&lt;br&gt;ipv6:2001:10:17:110::1/64" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="132" y="520" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JJ399tZs6g35hUqtkFYU-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JJ399tZs6g35hUqtkFYU-23" target="JJ399tZs6g35hUqtkFYU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
